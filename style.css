@@ -1,0 +1,60 @@
+h1{
+    color: #6600FF;
+    padding-left: 30px;
+}
+a:link{
+    color:crimson
+}
+a:visited{
+    color:darkgreen
+}
+p{
+    color: #00FFFF ;
+}
+.header{
+    background-color: #CCFFFF;
+    display:flex;
+    
+    justify-content: space-between;
+}
+
+    
+
+.Site-Description{
+    background-color: darkgray;
+}
+
+.Grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Item{
+   background-color:  #6666FF;
+}
+
+body{
+    background-color: #6600FF;
+}
+
+.menu{
+    background-color:deepskyblue;
+    
+    margin-right:20px;
+    padding:20px;
+    justify-content: space-between;
+}
+
+.Item p{
+position:absolute;
+opacity:0
+}
+
+ .Item:hover p{
+     opacity:1
+ }
+ 
+ .Item{
+     position:static
+ }
